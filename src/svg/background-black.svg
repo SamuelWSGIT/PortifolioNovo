@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1920" height="1080" preserveAspectRatio="none" viewBox="0 0 1920 1080">
+    <g mask="url(&quot;#SvgjsMask1293&quot;)" fill="none">
+        <rect width="1920" height="1080" x="0" y="0" fill="url(#SvgjsLinearGradient1294)"></rect>
+        <path d="M211.24375854318836 255.44736797201847L172.85236113746782-113.20165292080316-92.55290121216547 72.63711245693588z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float1"></path>
+        <path d="M-19.693858372658852-37.870759694680885L-117.75580631640095 154.58664953000658 219.9612814925013 205.450866833276z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float2"></path>
+        <path d="M-72.00000000000004-71.99999999999996L-71.99999999999996 252.00000000000006 251.99999999999994-72.00000000000004z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float1"></path>
+        <path d="M1638.1333512679676 154.5874281184537L1997.6807471040795 244.5967062372693 1913.8233764908628-68.36326148038887z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float1"></path>
+        <path d="M1936.0991281607417-40.940949338131446L1730.6709206409882-107.68862012312007 1733.263518223382 233.827526549004z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float2"></path>
+        <path d="M1986.6532307296795 151.5459412079402L1715.8233566241968-101.48998369603153 1637.4406624499043 212.88583161739137z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float1"></path>
+        <path d="M95.4438347260575 1151.5615290467683L297.60646126592235 840.9069420365277-25.604291018260767 818.3058445434312z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float2"></path>
+        <path d="M-71.01394116628921 953.1848766118226L232.39602954485383 1166.0660398768314 266.2632516435734 843.8409457775108z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float3"></path>
+        <path d="M-35.75439180851271 863.6732958326313L114.67680927944161 1202.4157551424075 309.6648767807052 943.6578498870847z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float3"></path>
+        <path d="M1984.1348560733463 919.3730931499074L1621.66520829123 841.9666694067276 1716.393640621397 1151.8094103387511z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float2"></path>
+        <path d="M2061.881485684642 923.4279595648269L1793.2733121768085 742.2494588403049 1880.7029849601201 1192.0361330726605z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float2"></path>
+        <path d="M2042.708297540084 864.4189540571568L1738.2478884054497 753.6044276196402 1931.8937711025674 1168.879363191791z" fill="rgba(212, 175, 55, 0.7)" class="triangle-float1"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1293">
+            <rect width="1920" height="1080" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1294">
+            <stop stop-color="rgba(47, 57, 67, 0.998)" offset="0"></stop>
+            <stop stop-color="rgba(24, 33, 43, 1)" offset="0.81"></stop>
+        </linearGradient>
+        <style>
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style>
+    </defs>
+</svg>
