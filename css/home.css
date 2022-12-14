@@ -69,7 +69,7 @@ p {
 }
 
 .acoras:hover {
-  filter: invert(86%) sepia(27%) saturate(1554%) hue-rotate(333deg) brightness(100%) contrast(105%);
+  filter: invert(50%) sepia(50%) saturate(554%) hue-rotate(355deg) brightness(100%) contrast(105%);
 }
 
 /* ----- navegação ----- */
@@ -348,13 +348,13 @@ span {
   display: flex;
   margin-bottom: 3rem;
   width: 100vw;
-  transition: 0.6s;
+  transition: 0.2s linear;
   flex-direction: column;
   align-items: center;
 }
 
 .slide a {
-  transition: 0.3s;
+  transition: 0.2s linear;
 }
 
 .slide img:hover {
@@ -373,7 +373,7 @@ span {
   width: 800px;
   height: 600px;
   border: 4px solid var(--cor-de-borda-dourada-transparente);
-  transition: 0.5s;
+  transition: 0.2s linear;
   background: var(--cor-de-div-branca);
 }
 
@@ -393,7 +393,7 @@ span {
   border-radius: 10px;
   background: var(--cor-de-div-branca);
   border: 4px solid var(--cor-de-borda-dourada);
-  transition: 0.3s;
+  transition: 0.2s linear;
 }
 
 .componentAnimado,
@@ -402,7 +402,7 @@ span {
   border-radius: 71px;
   background-color: var(--cor-de-fundo-branca);
   box-shadow: -1px -1px 5px var(--cor-de-div-cinza), 1px 1px 5px var(--cor-de-div-branca);
-  transition: 0.5s;
+  transition: 0.2s linear;
   cursor: default;
 }
 
@@ -508,7 +508,7 @@ span {
   position: absolute;
   top: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 0.2s linear;
   pointer-events: none;
 }
 
@@ -575,11 +575,11 @@ span {
 
 .hide {
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.2s linear;
 }
 
 .show {
-  transition: 0.5s;
+  transition: 0.2s linear;
   opacity: 1;
 }
 
