@@ -374,6 +374,7 @@ span {
   height: 600px;
   border: 4px solid var(--cor-de-borda-dourada-transparente);
   transition: 0.5s;
+  background: var(--cor-de-div-branca);
 }
 
 .slides__nav {
@@ -422,16 +423,16 @@ span {
 }
 
 #slide2:checked ~ .s1 {
-  margin-left: -20.5%;
+  margin-left: -20%;
 }
 #slide3:checked ~ .s1 {
-  margin-left: -40.5%;
+  margin-left: -40%;
 }
 #slide4:checked ~ .s1 {
-  margin-left: -61%;
+  margin-left: -60%;
 }
 #slide5:checked ~ .s1 {
-  margin-left: -81%;
+  margin-left: -80%;
 }
 
 /* ----- Contatos ----- */
@@ -552,6 +553,7 @@ span {
   font-weight: bold;
   cursor: pointer;
   background: var(--cor-de-div-cinza);
+  color: var(--text-color-preta);
 }
 
 .linkHide {
