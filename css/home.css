@@ -68,7 +68,7 @@ p {
   border-bottom: 4px solid var(--cor-de-borda-dourada-transparente);
 }
 
-.acoras:hover {
+.ancoras:hover {
   filter: invert(50%) sepia(50%) saturate(554%) hue-rotate(355deg) brightness(100%) contrast(105%);
 }
 
@@ -459,7 +459,7 @@ span {
 
 .contatos__conteudo__esquerda fieldset {
   border: 4px solid var(--cor-de-borda-dourada);
-  padding: 1rem;
+  padding: 0.3rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -475,6 +475,8 @@ span {
 
 .inputBox {
   position: relative;
+  top: -15px;
+  display: flex;
 }
 
 .inputUser {
@@ -482,20 +484,27 @@ span {
   border: none;
   border-bottom: 1px solid var(--cor-de-div-branca);
   outline: none;
-  color: var(--cor-de-div-branca);
+  color: white;
   width: 100%;
   height: 100%;
+  padding-top: 20px;
+  resize: none;
+}
+
+#texto {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .inputUser:focus ~ .labelInput,
 .inputUser:hover ~ .labelInput {
-  top: -20px;
+  top: 0px;
   font-size: small;
   color: var(--text-color-dourada);
 }
 
 .inputUser:valid ~ .labelInput {
-  top: -20px;
+  top: 0px;
   font-size: small;
   color: var(--input-text-color-gree);
 }
@@ -506,7 +515,7 @@ span {
 
 .labelInput {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   transition: 0.2s linear;
   pointer-events: none;
@@ -549,11 +558,17 @@ span {
 }
 
 .enviar {
+  margin-top: 15px;
   font-family: var(--font-primaria);
   font-weight: bold;
   cursor: pointer;
-  background: var(--cor-de-div-cinza);
-  color: var(--text-color-preta);
+  border: 4px solid var(--cor-de-borda-dourada);
+  background: var(--cor-de-div-branca);
+  color: var(--text-color-dourada);
+}
+
+.enviar:hover {
+  background: var(--cor-de-borda-dourada-transparente);
 }
 
 .linkHide {
