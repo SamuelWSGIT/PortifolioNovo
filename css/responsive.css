@@ -1,0 +1,82 @@
+@media screen and (max-width: 800px) {
+    .navegacao{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    .navegacao__thema{
+        width: auto;
+    }
+    .navegacao__nome{
+        width: auto;
+    }
+    .navegacao__lista{
+        width: 90vw;
+    }
+    .banner{
+        justify-content: flex-start;
+    }
+    .sobre__imagem{
+        height: 20vh;
+        width: 20vh;
+    }
+    .sobre__texto{
+        height: fit-content;
+    }
+    .slide{
+        margin-bottom: 2rem;
+    }
+    .slide h2{
+        margin-bottom: 1rem;
+    }
+    .contatos{
+        padding-top: 3rem;
+    }
+    .contatos__conteudo{
+        justify-content: center;
+    }
+    .skills__conteudo{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .contatos__itens ul{
+        margin: .7rem .7rem;
+    }
+    .contatos__itens ul li{
+        margin: 0;
+    }
+    .contatos__conteudo__esquerda{
+        display: none;
+    }
+    *, a, p{
+        font-size: .7rem;
+    }
+    .skills__saibaMais {
+        margin: 0;
+        padding: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__itens{
+        align-items: center;
+        width: 80vw;
+        height: 42vh;
+    }
+    .skills_item{
+        margin: .2rem;
+        width: 35vw;
+    }
+    .skills{
+        justify-content: flex-end;
+    }
+    .skills__saibaMais ul li {
+        margin: .5rem;
+    }
+    .slide img{
+        height: 40vh;
+    }
+    .projetos{
+        justify-content: center;
+    }
+}
