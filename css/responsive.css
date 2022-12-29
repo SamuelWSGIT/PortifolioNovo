@@ -76,4 +76,7 @@
     .projetos{
         justify-content: center;
     }
+    .setor{
+        padding-top: 3rem;
+    }
 }
