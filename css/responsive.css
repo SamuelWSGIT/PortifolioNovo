@@ -12,8 +12,8 @@
     .navegacao__lista{
         width: 90vw;
     }
-    .banner{
-        justify-content: flex-start;
+    .banner, .sobre, .skills, .projetos,.contatos{
+        justify-content: center;
     }
     .sobre__imagem{
         height: 20vh;
@@ -66,9 +66,6 @@
     .skills_item{
         margin: .2rem;
         width: 35vw;
-    }
-    .skills{
-        justify-content: flex-end;
     }
     .skills__saibaMais ul li {
         margin: .5rem;
