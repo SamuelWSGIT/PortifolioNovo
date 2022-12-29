@@ -80,4 +80,7 @@
     .setor{
         padding-top: 3rem;
     }
+    .hide {
+        opacity: 1;
+    }
 }
